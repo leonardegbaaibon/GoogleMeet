@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.body{
+    background-color: rgb(34, 34, 36);
+}
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45em;
+}
+
+.children_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tope_div, .ayosile_div, .leonard_div, .adebola_div{
+    background-color: rgba(255, 255, 255, 0.171);
+    position: relative;
+    height: 20em;
+    padding: 40px;
+    width: 25em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0.3rem;
+    border-radius: 10px;
+}
+
+.tope_div div img, .ayosile_div div img, .leonard_div div img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+.tope_div span, .ayosile_div span,.leonard_div span{
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+.mic_notify{
+    position: absolute;
+    background-color: rgb(37, 129, 204);
+    top: 0;
+    right: 0;
+    margin: 10px;
+    height: 27px;
+    width: 30px;
+    border-radius: 100%;
+
+}
+.leonard_div{
+    border: 0.25rem solid rgb(37, 129, 204);
+}
+
+/* .ayosile_div{
+
+}
+
+.leonard_div{
+
+}
+
+.adebola_div{
+
+} */
+
